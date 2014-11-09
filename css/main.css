@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Page content */
 
         body{
@@ -95,3 +96,98 @@
               width: 330px;
             }
         }
+||||||| merged common ancestors
+=======
+/* Page content */
+/* Page content */
+
+        body{
+          font: lighter 1.5em/2em 'Lucida Grande', sans-serif;
+          color: #666;
+        }
+        
+        .container {
+          max-width: 1024px;
+        }
+
+        div {
+          height: 100%;
+        }
+
+        .h1, h1 {
+          font-size: 2.5em;
+          color: #666;
+          text-align: center;
+          margin: 1.2em 0 .7em 0;
+        }
+
+/* Main content */
+
+        .main {
+          max-width:600px;
+          overflow: scroll;
+        }
+
+        h2 {
+          font-size: 1.5em;
+          font-weight: bold;
+          color: #F07C17;
+          margin: 0 0 1em 0;
+        }
+
+        p {
+          margin: 0 0 10px 0;
+        }
+
+/* Aside and list content */
+
+        .aside {
+          border: 1px solid #CCC;
+          margin: 25px 0;
+          padding: 2em;
+          width: 330px;
+          height: 100%;
+  
+        }
+        
+        ul {
+          list-style: disc;
+          margin: 20px 20px 10px 20px;
+        }
+
+        li {display: list-item;
+            margin: 0 0 0 1em;}
+
+ /* Media Query for screens under 600 px */
+
+         @media screen and (max-width:600px){
+          .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+            padding: 0 10px;
+            float: left;
+           }
+
+            img {
+              margin: auto;
+            }
+
+            h1, .h1 {
+              font-size: 2em;
+              text-align: left;
+              margin: 5px 0 5px 0;
+            }
+            
+            .main {
+              margin-left:0;
+              width:330px;
+            }
+
+            h2, .h2 {
+              margin: 0 0 10px 0;
+
+            }
+
+            .aside {
+              width: 330px;
+            }
+        }
+>>>>>>> 64199a814ae929ffab942f96c9906838f20887bb
