@@ -1,4 +1,5 @@
 /* Page content */
+/* Page content */
 
         body{
           font: lighter 1.5em/2em 'Lucida Grande', sans-serif;
@@ -23,8 +24,7 @@
 /* Main content */
 
         .main {
-          max-width:525px;
-          margin-left: 2.5em;
+          max-width:600px;
           overflow: scroll;
         }
 
@@ -43,7 +43,7 @@
 
         .aside {
           border: 1px solid #CCC;
-          margin: 25px 25px 25px 0;
+          margin: 25px 0;
           padding: 2em;
           width: 330px;
           height: 100%;
